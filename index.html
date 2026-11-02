@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Galaxy Cricket Hub</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #050505;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background: #101010;
+    border-bottom: 1px solid #b99135;
+    padding: 15px 20px;
+}
+
+.navbar {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px solid #d4af37;
+    object-fit: cover;
+}
+
+.brand h2 {
+    font-size: 19px;
+    color: #d4af37;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* MAIN SECTION */
+
+.hero {
+    min-height: 82vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    background:
+    radial-gradient(circle, #29200b 0%, #080808 55%, #050505 100%);
+}
+
+.box {
+    max-width: 650px;
+    width: 100%;
+    padding: 40px 20px;
+    border: 1px solid #8e7025;
+    border-radius: 18px;
+    background: rgba(15,15,15,0.85);
+    box-shadow: 0 0 35px rgba(212,175,55,0.12);
+}
+
+.hero h1 {
+    font-size: 30px;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+
+.join {
+    display: inline-block;
+    padding: 17px 38px;
+    background: linear-gradient(135deg,#f5d77a,#b8860b);
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 9px;
+    box-shadow: 0 5px 20px rgba(212,175,55,0.3);
+}
+
+.join:hover {
+    transform: scale(1.04);
+}
+
+/* FOOTER */
+
+footer {
+    background: #101010;
+    border-top: 1px solid #8e7025;
+    padding: 22px;
+    text-align: center;
+    color: #d4af37;
+    font-size: 14px;
+}
+
+/* MOBILE */
+
+@media(max-width: 600px) {
+
+    .brand h2 {
+        font-size: 15px;
+    }
+
+    .brand img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .menu {
+        gap: 12px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    .hero h1 {
+        font-size: 23px;
+    }
+
+    .box {
+        padding: 35px 15px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+<div class="navbar">
+
+    <div class="brand">
+        <img src="logo.jpg" alt="Logo">
+        <h2>GALAXY CRICKET HUB</h2>
+    </div>
+
+    <div class="menu">
+        <a href="#">HOME</a>
+        <a href="#channel">CHANNEL</a>
+    </div>
+
+</div>
+</header>
+
+<!-- MAIN SECTION -->
+
+<section class="hero" id="channel">
+
+<div class="box">
+
+    <h1>
+    Hamare telegram ko join krne ke liye niche diye gaye batun per click kre
+    </h1>
+
+    <a class="join"
+    href="APNA_TELEGRAM_LINK"
+    target="_blank">
+    JOIN TELEGRAM
+    </a>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+© 2026 GALAXY CRICKET HUB
+</footer>
+
+</body>
+</html>
